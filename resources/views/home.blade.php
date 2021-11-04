@@ -13,8 +13,8 @@
         <div class="pl-3"><strong>12</strong> following</div>
         <div class="pl-3"><strong>500</strong> followers</div>
       </div>
-      <div class="pt-5">kingcastro.com</div>
-      <div class="">This is my bio section for My Gram</div>
+      <div class="pt-5">{{ $user->profile->title }}</div>
+      <div class="">{{ $user->profile->description }}</div>
     </div>
   </div>
   <div class="row pt-5">
