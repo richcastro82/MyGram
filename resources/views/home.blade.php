@@ -7,7 +7,7 @@
       <img style="width:100%;"class="rounded-circle" src="images/MyGramLogo.jpg"/>
     </div>
     <div class="col-9 pl-5">
-      <div class=""><h2>Richard Castro</h2></div>
+      <div class=""><h2>{{ $user->username }}</h2></div>
       <div class="d-flex">
         <div class=""><strong>120</strong> posts</div>
         <div class="pl-3"><strong>12</strong> following</div>
