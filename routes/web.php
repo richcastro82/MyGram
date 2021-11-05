@@ -14,15 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('profiles.index');
 });
 
 Auth::routes();
 
+Route::get('/p/create', 'App\Http\Controllers\PostsController@create');
+Route::get('/p', 'App\Http\Controllers\PostsController@store');
 Route::get('/profile/{user}', [App\Http\Controllers\ProfilesController::class, 'index'])->name('profile.show');
 
-
-
-Auth::routes();
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\ProfilesController::class, 'index'])->name('home');
