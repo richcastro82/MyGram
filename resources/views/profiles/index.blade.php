@@ -12,7 +12,7 @@
       <div class="pt-1">{{ $user->profile->title }}</div>
       <div class="">{{ $user->profile->description }}</div>
       <div class="pt-4"><strong>3</strong> posts</div>
-      <a href='#'>Add Post</a>
+      <a href='/p/create'>Add Post</a>
         <!-- <div class="pl-3"><strong>0</strong> following</div>
         <div class="pl-3"><strong>0</strong> followers</div> -->
 
