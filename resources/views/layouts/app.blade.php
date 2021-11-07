@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'King Gram') }}</title>
+    <title>{{ config('app.name', 'KingstaGram') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -25,7 +25,7 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <div><img style="width:75px;"src="../images/KingGram.jpg"/></div>
-                    <div>KingGram</div>
+                    <div>King's Gram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

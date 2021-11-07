@@ -11,7 +11,7 @@
 
       <div class="pt-1">{{ $user->profile->title }}</div>
       <div class="">{{ $user->profile->description }}</div>
-      <div class="pt-4"><strong>3</strong> posts</div>
+      <div class="pt-4"><strong>{{ $user -> posts -> count() }}</strong> posts</div>
       <a href='/p/create'>Add Post</a>
         <!-- <div class="pl-3"><strong>0</strong> following</div>
         <div class="pl-3"><strong>0</strong> followers</div> -->
@@ -20,9 +20,13 @@
     </div>
   </div>
   <div class="row pt-5">
-    <div class="col-4"><img src="" class="w-100"/></div>
-    <div class="col-4"><img src="" class="w-100"/></div>
-    <div class="col-4"><img src="" class="w-100"/></div>
+    @foreach($user->posts as $post)
+    <div class="col-4">
+      <img src="/storage/{{ $post -> image }}" class="w-100"/>
+      <p>{{ $post-> caption }}</p>
+    </div>
+    @endforeach
+
   </div>
 </div>
 @endsection
