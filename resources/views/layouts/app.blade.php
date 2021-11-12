@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/profile/1') }}">
                     <div><img style="width:75px;"src="../images/KingGram.jpg"/></div>
                     <div>King's Gram</div>
                 </a>
