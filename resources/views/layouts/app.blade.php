@@ -34,12 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item pl-5">
-                          <a class="nav-link" href="https://kingcastro.com">My Website</a>
-                      </li>
-                      <li class="nav-item pl-5">
-                          <a class="nav-link" href="https://kingcastro.com/portfolio">My Portfolio</a>
-                      </li>
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -47,9 +42,18 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link" href="https://kingcastro.com">My Website</a>
                                 </li>
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link" href="#">LinkedIn</a>
+                                </li>
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link" href="https://github.com/richcastro82">GitHub</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li> -->
                             @endif
 
                             <!-- @if (Route::has('register'))
