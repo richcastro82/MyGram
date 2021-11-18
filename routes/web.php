@@ -5,8 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', 'App\Http\Controllers\ProfilesController@pass');
-
+Route::get('/', [App\Http\Controllers\ProfilesController::class, 'pass'])->name('profile.show');
 // Routes for the gram blade
 Route::get('/gram/{post}','App\Http\Controllers\PostsController@show');
 Route::get('/gram/create', 'App\Http\Controllers\PostsController@create');

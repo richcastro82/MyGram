@@ -16,7 +16,7 @@ class ProfilesController extends Controller
   }
 
 
-public function Pass()
+public function pass()
 {
       return redirect('/profile/1');
 }
