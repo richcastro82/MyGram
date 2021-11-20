@@ -10,8 +10,14 @@ use App\Models\Post;
 class PostsController extends Controller
 {
 
-    public function __construct(){
-      $this->middleware('auth');
+
+    // public function __construct(){
+    //   $this->middleware('auth');
+    // }
+
+
+    public function index(){
+
     }
 
 
@@ -20,14 +26,11 @@ class PostsController extends Controller
     }
 
 
-
-    public function store()
-    {
+    public function store(){
       $data=request()->validate([
         'caption'=> 'required',
         'image'=> ['required', 'image'],
       ]);
-
 
       $imagePath = request('image')->store('uploads', 'public');
       $image=Image::make(public_path("storage/{$imagePath}")) -> fit(1200,1200);
@@ -42,8 +45,10 @@ class PostsController extends Controller
     }
 
 
+
     public function show (Post $post){
       return view('posts.show', compact('post'));
     }
+
 
 }

@@ -13,7 +13,7 @@
       <div class="pt-1"><h5>IT Specialist ~  Programmer</h5></div>
       <div class="pt-4">This is my personal version of Instagram. I do not have a social media account but that doesn't mean I can't have all the same features. Built on Laravel 8 + SQLite and side loaded on LAMP server hosting all my other websites.</div>
       <div class="pt-5"><strong>{{ $user -> posts -> count() }}</strong> posts</div>
-      <!-- <a href="{{ url('/gram/create') }}">Add Post</a> -->
+      
 
         <!-- <div class="pl-3"><strong>0</strong> following</div>
         <div class="pl-3"><strong>0</strong> followers</div> -->
