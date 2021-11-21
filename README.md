@@ -1,3 +1,4 @@
+![MyGram](https://www.kingcastro.com/wp-content/uploads/2021/11/My-Gram-1.jpg)
 # WHAT IS MYGRAM? 
 MyGram is a Laravel application I created as my own personal instagram style sharing platform. 
 
