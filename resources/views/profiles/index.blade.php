@@ -10,8 +10,13 @@
       <div class=""><h2>Richard Castro</h2></div>
       <!-- <a href='/profile/{{ $user->id }}/edit'>Edit Profile</a> -->
 
-      <div class="pt-1"><h5>IT Specialist ~  Programmer</h5></div>
-      <div class="pt-4">This is my personal version of Instagram. I do not have a social media account but that doesn't mean I can't have all the same features. Built on Laravel 8 + SQLite and side loaded on LAMP server hosting all my other websites.</div>
+      <div class="pt-1"><h5>IT Specialist ~ Programmer</h5></div>
+      <div class="pt-4">
+        I created this web application for two reasons. First I found that my website worked well as a portfolio
+        and then my blog works well as a record of smaller projects and things that I have done, however I didn't
+        have a place to display images and graphics that didn't really fall into those main buckets. Secondly, I
+        wanted to add more to my Laravel project portfolio and this application is a perfect fit for both of those. 
+      </div>
       <div class="pt-5"><strong>{{ $user -> posts -> count() }}</strong> posts</div>
 
 
