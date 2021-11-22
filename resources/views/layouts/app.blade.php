@@ -46,7 +46,7 @@
                                     <a class="nav-link" href="https://kingcastro.com">My Website</a>
                                 </li>
                                 <li class="nav-item pl-5">
-                                    <a class="nav-link" href="#">LinkedIn</a>
+                                    <a class="nav-link" href="https://www.linkedin.com/in/richard-c-376644144/">LinkedIn</a>
                                 </li>
                                 <li class="nav-item pl-5">
                                     <a class="nav-link" href="https://github.com/richcastro82">GitHub</a>
